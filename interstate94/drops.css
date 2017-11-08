@@ -1,0 +1,24 @@
+.drops {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.drop_container {
+  visibility: hidden;
+  position: absolute;
+  transition:
+    width 0.5s ease,
+    height 0.5s ease,
+    top 0.5s ease,
+    left 0.5s ease;
+}
+.drop_container.no_transition {
+  transition:
+    width 0.5s ease,
+    height 0.5s ease,
+    top 0s ease,
+    left 0s ease;
+}
+.drop {
+  border-radius: 1000px;
+}

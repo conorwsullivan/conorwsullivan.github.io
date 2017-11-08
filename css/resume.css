@@ -1,0 +1,231 @@
+
+body {
+  background-color: #222;
+  color: #ababab;
+  font-family: monospace;
+  margin: 0px auto 80px auto;
+  width: 750px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 30;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: bold;
+  border-bottom: 1px dotted #ababab;
+  padding-bottom: 3px;
+  padding-left: 25px;
+  position: relative;
+}
+
+h2.animate:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
+  width: 0px;
+  height: 10px;
+  background-color: #222;
+
+  animation-duration: 5s;
+  animation-name: slideacrosss;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideacrosss {
+  from {
+    left: 0px;
+    width: 0px;
+    animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  }
+
+  50% {
+    left: 0px;
+    width: 101%;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  to {
+    left: 100%;
+    width: 0px;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+}
+
+ul {
+  margin: 5px 0px;
+}
+
+.header {
+  background-image: url("/img/conor.png");
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  margin: 15px;
+  position: relative;
+  background-position: 0% 50%;
+}
+.header.gif {
+}
+
+.header ul {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.links li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #ababab;
+  text-decoration: none;
+  border-bottom: 1px dotted #ababab;
+  cursor: pointer;
+}
+
+a:hover {
+  border-bottom: 2px solid #ababab;
+}
+
+.pause-link.pressed {
+  background-color: #444;
+  color: #ababab;
+}
+
+.section {
+  margin-top: 25px;
+}
+
+.item {
+  padding-left: 65px;
+  margin-bottom: 15px;
+  background-repeat: no-repeat;
+  width: 700px;
+  background-position: 0% 50%;
+}
+
+.item.early-days {
+  background-image: url("/img/early-days.png");
+}
+.item.early-days.gif {
+  background-image: url("/img/early-days.gif");
+}
+
+.item.high-school {
+  background-image: url("/img/high-school.png");
+}
+.item.high-school.gif {
+  background-image: url("/img/high-school.gif");
+}
+
+.item.scu {
+  background-image: url("/img/scu.png");
+}
+.item.scu.gif {
+  background-image: url("/img/scu.gif");
+}
+
+.item.ibm {
+  background-image: url("/img/ibm.png");
+}
+.item.ibm.gif {
+  background-image: url("/img/ibm.gif");
+}
+
+.item.vmware {
+  background-image: url("/img/vmware.png");
+}
+.item.vmware.gif {
+  background-image: url("/img/vmware.gif");
+}
+
+.item.cm {
+  background-image: url("/img/cm.png");
+}
+
+.item.eris {
+  background-image: url("/img/eris.png");
+}
+
+.item.eris.gif {
+  background-image: url("/img/eris.gif");
+}
+
+.item.home {
+  background-image: url("/img/home.png");
+}
+
+.item.skills {
+  background-image: url("/img/skills.png");
+}
+.item.skills.gif {
+  background-image: url("/img/skills.gif");
+}
+
+
+.item.skills .item-details {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.animate li {
+  margin-bottom: 5px;
+  margin-left: -10px;
+  padding-left: 30px;
+
+  background-image: url('/img/bullet.png');
+  background-repeat: no-repeat;
+  background-position: 15px 7px;
+
+  transition: background-position 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.animate li.move {
+  background-position: 0px 7px;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    width: auto;
+    margin: 10px 10px;
+    font-size: auto;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  h2, a {
+    border-bottom: 2px dotted #eeab00;
+  }
+
+  .header {
+    background-position: 0px 0px;
+  }
+
+  .header ul {
+    display: block;
+    margin-left: -40px;
+  }
+
+  ul.links {
+    margin-left: -60px;
+  }
+
+  .interactions li {
+    display: inline-block;
+    margin-right: 45px;
+  }
+
+  .item {
+    width: auto;
+  }
+  .links, .item.skills .item-details {
+    display: block;
+  }
+}
+

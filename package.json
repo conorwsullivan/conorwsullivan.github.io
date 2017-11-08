@@ -1,0 +1,23 @@
+{
+  "name": "conorwsullivan.github.io",
+  "version": "1.0.0",
+  "description": "Web Resume",
+  "main": "resume.js",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ConorWSullivan@github.com/ConorWSullivan/conorwsullivan.github.io.git"
+  },
+  "author": "Conor Sullivan",
+  "license": "All Rights Reserved",
+  "bugs": {
+    "url": "https://github.com/ConorWSullivan/conorwsullivan.github.io/issues"
+  },
+  "homepage": "https://github.com/ConorWSullivan/conorwsullivan.github.io#readme"
+}

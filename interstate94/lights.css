@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(16, 16, 16);
+  font-family: monospace;
+}
+.back {
+  color: gray;
+  text-decoration: none;
+}
+body.animate .lights {
+  display: block;
+  position: absolute;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+body.animate .lights.text {
+  font-size: 80px;
+  font-weight: bold;
+  right: 20px;
+  color: transparent;
+  background-color: rgb(16, 16, 16);
+  text-shadow:
+     1px   0px  5px rgba( 16,  16,  16, 1),
+     0px   0px  0px rgba(235, 235, 255, 0.25)
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+
+  animation-name: lights-text;
+}
+body.animate .lights.drop {
+  animation-name: lights-drop;
+  width: 100%;
+  height: 100%;
+}
+
+body.animate .lights.second {
+  opacity: 0.5;
+  animation-duration: 9s;
+  animation-delay: 9s;
+}
+
+@keyframes lights-text {
+  from {
+    text-shadow:
+      -2px   0px  5px rgba( 16,  16,  16, 1),
+       0px   0px  0px rgba(235, 235, 255, 0);
+  }
+  15% {
+    text-shadow:
+      -5px   0px  5px rgba( 16,  16,  16, 1),
+       0px   0px  0px rgba(235, 235, 255, 0.5);
+  }
+  30% {
+    text-shadow:
+      -5px  -1px  5px rgba( 16,  16,  16, 0.5),
+       0px   0px  0px rgba(235, 235, 255, 0.75);
+  }
+  35% {
+    text-shadow:
+       0px  -2px  5px rgba( 16,  16,  16, 1),
+       0px   0px  0px rgba(235, 235, 255, 0.15);
+  }
+  40% {
+    text-shadow:
+       5px  -1px  5px rgba( 16,  16,  16, 1),
+       0px   0px  0px rgba(255, 100, 100, 0.75);
+  }
+  60% {
+    text-shadow:
+       2px   0px  5px rgba( 16,  16,  16, 1),
+       0px   0px  0px rgba(255, 100, 100, 0.25);
+  }
+  to {
+    text-shadow:
+      -2px   0px  5px rgba( 16,  16,  16, 1),
+       0px   0px  0px rgba(235, 235, 255, 0);
+  }
+}
+@keyframes lights-drop {
+  from {
+    box-shadow:
+      inset 0px   0px  0px rgba(235, 235, 255, 0);
+  }
+  15% {
+    background-color: transparent;
+    box-shadow:
+      inset -5px   0px  5px rgba(235, 235, 255, 0.25);
+  }
+  30% {
+    background-color: rgba(235, 235, 255, 0.25);
+    box-shadow:
+      inset -5px   0px  5px rgba(235, 235, 255, 0.5);
+  }
+  35% {
+    background-color: transparent;
+    box-shadow:
+       inset 0px   0px  5px rgba(235, 235, 255, 0.05);
+  }
+  40% {
+    box-shadow:
+       inset 5px   0px  5px rgba(255, 100, 100, 0.5);
+  }
+  60% {
+    box-shadow:
+       inset 2px   0px  5px rgba(255, 100, 100, 0.25);
+  }
+  to {
+    box-shadow:
+      inset 0px   0px  0px rgba(235, 235, 255, 0);
+  }
+}

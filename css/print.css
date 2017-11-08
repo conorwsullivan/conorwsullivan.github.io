@@ -1,0 +1,61 @@
+
+body {
+  background-color: white;
+  color: black;
+  width: 900px;
+}
+
+a {
+  color: black;
+}
+
+ul.interactions {
+  display: none;
+}
+
+h1 {
+  font-size: 30;
+}
+
+h2.animate:after {
+  display: none;
+}
+
+.item {
+  width: 800px;
+}
+
+.animate li.move {
+  background-position: 15px 7px;
+  transition: none;
+}
+
+.item-detail a {
+  border: none;
+}
+
+li.demos {
+  display: none;
+}
+
+div.header.gif {
+  background-image: url('/img/conor.png');
+}
+li.item.early-days.gif {
+  background-image: url("/img/early-days.png");
+}
+li.item.high-school.gif {
+  background-image: url("/img/high-school.png");
+}
+li.item.scu.gif {
+  background-image: url("/img/scu.png");
+}
+li.item.ibm.gif {
+  background-image: url("/img/ibm.png");
+}
+li.item.vmware.gif {
+  background-image: url("/img/vmware.png");
+}
+li.item.skills.gif {
+  background-image: url("/img/skills.png");
+}
