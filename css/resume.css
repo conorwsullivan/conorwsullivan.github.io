@@ -93,8 +93,9 @@ a:hover {
 }
 
 .pause-link.pressed {
-  background-color: #444;
-  color: #ababab;
+  background-color: #ababab;
+  color: #222;
+  border-bottom: 1px dotted #222;
 }
 
 .section {
