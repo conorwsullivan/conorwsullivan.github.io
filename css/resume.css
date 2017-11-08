@@ -110,35 +110,35 @@ a:hover {
 }
 
 .item.early-days {
-  background-image: url("/img/early-days.png");
+  background-image: url("/img/early-days.gif");
 }
 .item.early-days.gif {
   background-image: url("/img/early-days.gif");
 }
 
 .item.high-school {
-  background-image: url("/img/high-school.png");
+  background-image: url("/img/high-school.gif");
 }
 .item.high-school.gif {
   background-image: url("/img/high-school.gif");
 }
 
 .item.scu {
-  background-image: url("/img/scu.png");
+  background-image: url("/img/scu.gif");
 }
 .item.scu.gif {
   background-image: url("/img/scu.gif");
 }
 
 .item.ibm {
-  background-image: url("/img/ibm.png");
+  background-image: url("/img/ibm.gif");
 }
 .item.ibm.gif {
   background-image: url("/img/ibm.gif");
 }
 
 .item.vmware {
-  background-image: url("/img/vmware.png");
+  background-image: url("/img/vmware.gif");
 }
 .item.vmware.gif {
   background-image: url("/img/vmware.gif");
@@ -149,11 +149,23 @@ a:hover {
 }
 
 .item.eris {
-  background-image: url("/img/eris.png");
+  background-image: url("/img/eris.gif");
 }
 
 .item.eris.gif {
   background-image: url("/img/eris.gif");
+}
+
+.item.uber {
+  background-image: url("/img/uber.gif");
+}
+
+.item.uber.gif {
+  background-image: url("/img/uber.gif");
+}
+
+.item.lone-pine {
+  background-image: url("/img/lone-pine.png");
 }
 
 .item.home {
@@ -161,7 +173,7 @@ a:hover {
 }
 
 .item.skills {
-  background-image: url("/img/skills.png");
+  background-image: url("/img/skills.gif");
 }
 .item.skills.gif {
   background-image: url("/img/skills.gif");
