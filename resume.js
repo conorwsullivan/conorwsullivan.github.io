@@ -13,7 +13,7 @@ $(document).ready(function () {
 	}, 100);
 
 	$('.print-link').click(function() {
-		document.title = "Olivia Witt, JavaScript Developer";
+		document.title = "Conor Sullivan, JavaScript Developer";
 		window.print();
 		return false;
 	});
