@@ -9,6 +9,12 @@ body {
   line-height: 1.4;
 }
 
+/* Force images on print */
+* {
+    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari, Edge */
+    color-adjust: exact !important;                 /*Firefox*/
+}
+ 
 h1 {
   font-size: 30;
   margin-bottom: 10px;
@@ -111,38 +117,38 @@ a:hover {
 }
 
 .item.early-days {
-  background-image: url("/img/early-days.gif");
+  background-image: url("/img/early-days.png");
 }
 .item.early-days.gif {
-  background-image: url("/img/early-days.gif");
+  background-image: url("/img/early-days.png");
 }
 
 .item.high-school {
-  background-image: url("/img/high-school.gif");
+  background-image: url("/img/high-school.png");
 }
 .item.high-school.gif {
-  background-image: url("/img/high-school.gif");
+  background-image: url("/img/high-school.png");
 }
 
 .item.scu {
-  background-image: url("/img/scu.gif");
+  background-image: url("/img/scu.png");
 }
 .item.scu.gif {
-  background-image: url("/img/scu.gif");
+  background-image: url("/img/scu.png");
 }
 
 .item.ibm {
-  background-image: url("/img/ibm.gif");
+  background-image: url("/img/ibm.png");
 }
 .item.ibm.gif {
-  background-image: url("/img/ibm.gif");
+  background-image: url("/img/ibm.png");
 }
 
 .item.vmware {
-  background-image: url("/img/vmware.gif");
+  background-image: url("/img/vmware.png");
 }
 .item.vmware.gif {
-  background-image: url("/img/vmware.gif");
+  background-image: url("/img/vmware.png");
 }
 
 .item.cm {
@@ -150,22 +156,26 @@ a:hover {
 }
 
 .item.eris {
-  background-image: url("/img/eris.gif");
+  background-image: url("/img/eris.png");
 }
 
 .item.eris.gif {
-  background-image: url("/img/eris.gif");
+  background-image: url("/img/eris.png");
 }
 
 .item.uber {
-  background-image: url("/img/uber.gif");
+  background-image: url("/img/uber.png");
 }
 
 .item.uber.gif {
-  background-image: url("/img/uber.gif");
+  background-image: url("/img/uber.png");
 }
 
 .item.lone-pine {
+  background-image: url("/img/lone-pine.png");
+}
+
+.item.lone-pine.gif {
   background-image: url("/img/lone-pine.png");
 }
 
@@ -174,10 +184,10 @@ a:hover {
 }
 
 .item.skills {
-  background-image: url("/img/skills.gif");
+  background-image: url("/img/skills.png");
 }
 .item.skills.gif {
-  background-image: url("/img/skills.gif");
+  background-image: url("/img/skills.png");
 }
 
 
